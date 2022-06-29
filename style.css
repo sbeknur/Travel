@@ -1,0 +1,144 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/*----------------------------------------------*/
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 ;
+   }
+
+/*----------------------------------------------*/
+
+body{
+  background-size: cover;
+  background: url("back.png") no-repeat top;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+/*----------------------------------------------*/
+
+._container{
+  max-width: 65.375rem;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+/*----------------------------------------------*/
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/*----------------------------------------------*/
+
+.header{
+  box-shadow: 0px 4px 4px 0px rgba(13, 96, 111, 0.5);
+  padding: 1.5625rem 0 1.5rem 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 70%;
+  background: rgba(242, 120, 92, 0.7);
+}
+
+/*----------------------------------------------*/
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo_img{
+  max-height: 1.875rem;
+  max-width: 1.875rem;
+  left: 12.5rem;
+  top: 3.125rem;
+  padding: 0 6px 0 0;
+}
+
+.header__container{
+  display: flex;
+  min-height: 90px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-family: 'Magra', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.438rem;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__menu{
+  margin: 0px 0px 0px 0px;
+}
+
+.menu__list{
+color: inherit;
+display: flex;
+}
+
+.menu__item{
+  list-style-type: none;
+  color: inherit;
+  margin: 0px 0px 0px 42px;
+}
+
+.menu__link{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  line-height: 1.313rem;
+   font-family: 'Red Hat Text', sans-serif;
+}
+
+.button{
+  display: flex;
+  padding: 10px 30px;
+justify-content: center;
+align-items: center;
+top: 50px;
+border: none;
+width: 103px;
+height: 41px;
+color: inherit;
+background: #0D606F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+}
+
+.main-block__body{
+}
+
+.text{
+width: 892px;
+height: 422px;
+left: 120px;
+top: 122px;
+color: inherit;
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+}
